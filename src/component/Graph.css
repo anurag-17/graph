@@ -1,0 +1,25 @@
+.graphMonth{
+ text-align: left;
+ 
+
+}
+.graphMonth h3{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.189);
+   width: 250px;
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.438);
+}
+.graphHeading{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 1000px){
+    .mediaGrpahD{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        
+    } 
+}

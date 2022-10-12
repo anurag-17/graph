@@ -1,0 +1,77 @@
+.fontA{
+    font-family: 'Roboto', sans-serif;
+}
+.contentA{
+    text-align: center;
+    margin-top: 30px;
+}
+.contentA h1{
+    font-weight: 700;
+}
+.contentA p{
+    color: rgba(0, 0, 0, 0.485);
+    font-size: 18px;
+    
+   
+}
+.contentB{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 180px;
+   
+}
+.contentBa{
+width: 50%;
+margin-left: 80px;
+}
+.contentBb{
+ width: 50%;  
+ margin-left: 80px;  
+}
+.contentBb h2{
+    width: 80%;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.438);
+    font-weight: 400;
+}
+.contentBb h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.contentBb p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3438);
+    font-weight: 400;
+}
+@media (max-width:900px) {
+    .contentB{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 180px;
+        width: 100%;
+      
+    }
+    .contentBa{
+        width: 100%;  
+        margin-left: 0px;  
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+       }
+       .contentBb{
+        width: 100%;  
+        margin-left: 0px;  
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+       }
+       .contentBb h2{
+       
+        width: 100%;
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.438);
+        font-weight: 400;
+    }
+    }
